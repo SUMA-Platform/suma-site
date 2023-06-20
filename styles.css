@@ -100,6 +100,11 @@ h2 {
         line-height: 67px;
         max-width: 1000px;
     }
+
+    .suma-logo {
+        width: 480px;
+        height: auto;
+    }
 }
 
 /* SIGN UP FORM */
@@ -674,6 +679,12 @@ footer {
     font-size: 0.75rem;
     margin-top: 0;
     font-weight: 600;
+    
+}
+
+.copyright-company-container a {
+    text-decoration: underline;
+    color: #1A2421;
 }
 
 @media(min-width: 992px) {
@@ -693,3 +704,4 @@ footer {
         max-width: 1200px;
     }
 }
+
