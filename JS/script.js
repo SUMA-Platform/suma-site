@@ -1,3 +1,5 @@
+// SIGN UP FOR NEWSLETTER MODAL
+
 document.addEventListener('DOMContentLoaded', (event) => {
   let modal = document.getElementById("signUpModal");
   let btn = document.getElementById("signUpButton");
@@ -5,36 +7,45 @@ document.addEventListener('DOMContentLoaded', (event) => {
   let span = document.getElementsByClassName("close")[0];
   let spanCloseDocs = document.getElementsByClassName("close-docs-page")[0];
 
+  function showModal() {
+    modal.style.display = "flex";
+  }
+
+  function hideModal() {
+    modal.style.display = "none";
+  }
+
+  function hideModalIfClickedOutside(event) {
+    if (event.target == modal) {
+      hideModal();
+    }
+  }
+
   if(btn) {
-      btn.onclick = function() {
-        modal.style.display = "flex";
-      }
+      btn.addEventListener("click", showModal);
+      btn.addEventListener("touchstart", showModal);
   }
 
   if(saasBtn) {
-      saasBtn.onclick = function() {
-          modal.style.display = "flex";
-      }
+      saasBtn.addEventListener("click", showModal);
+      saasBtn.addEventListener("touchstart", showModal);
   }
 
   if(spanCloseDocs) {
-      spanCloseDocs.onclick = function() {
-        modal.style.display = "none";
-      }
+      spanCloseDocs.addEventListener("click", hideModal);
+      spanCloseDocs.addEventListener("touchstart", hideModal);
   }
 
   if(span) {
-      span.onclick = function() {
-        modal.style.display = "none";
-      }
+      span.addEventListener("click", hideModal);
+      span.addEventListener("touchstart", hideModal);
   }
 
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
+  window.addEventListener("click", hideModalIfClickedOutside);
+  window.addEventListener("touchstart", hideModalIfClickedOutside);
 });
+
+// NAV MENU OPEN AND CLOSE FUNCTION
 
 if(document.getElementById("nav-icon-open")) {
   document.getElementById("nav-icon-open").addEventListener("click", openMenu);
