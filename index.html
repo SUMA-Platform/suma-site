@@ -14,7 +14,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUMA</title>
+    <title>SUMA: Sustainability Management Platform</title>
 
     <link rel="stylesheet" href="styles.css">
 
@@ -42,12 +42,46 @@
 </head>
 <body>
 
+
+    <!-- HERO SECTION AND TOP NAV INSIDE THE SAME DIV
+    ------------------------------------------- -->
+
+
     <div class="hero-section">
+        <div id="top-nav">
+            <a href="index.html">
+                <img id="logo" src="img/suma_logo_square.png" alt="logo">
+            </a>
+            
+
+            <div id="nav-links-desktop-wrapper">
+                <a href="index.html" class="desktop-nav-link current-page">Home</a>
+                <a href="documents.html" class="desktop-nav-link">Documents</a>
+            </div>
+    
+            <div id="icon-wrapper" style="position: relative;">
+                <img id="nav-icon-open" class="nav-icon" src="img/hamburger.png" style="display: block;">
+                <img id="nav-icon-close" class="nav-icon" src="img/close.png" style="display: none;">
+            </div>
+        </div>
+    
+        <div id="nav-links-mobile" class="nav-links-mobile">
+            <a href="index.html" class="nav-link mobile-link">Home</a>
+            <a href="documents.html" class="nav-link mobile-link">Documents</a>
+        </div>
+    
         <img src="img/suma-logo.png" alt="SUMA logo" class="suma-logo">
         <h1>AI-driven Platform for <span>Sustainability Management</span></h1>
         <!-- Opens the form -->
-        <button id="signUpButton">Get launch updates</button>
+        <button id="signUpButton" class="signUpButton">Get launch updates</button>
     </div>
+    
+    <!-- HERO SECTION AND TOPNAV ENDS
+    ------------------------------------------- -->
+
+
+    <!-- SIGN UP NEWSLETTER FORM MODAL
+    ------------------------------------------- -->
 
     <!-- Form Connected to Formspree -->
     <div id="signUpModal" class="modal">
@@ -61,6 +95,11 @@
             </form>
         </div>
     </div>
+
+
+    <!-- PARTNERS AND INFRASTRUCTURE PROVIDERS
+    ------------------------------------------- -->
+
 
     <div class="partners-line">
         <p>Partners & Infrastructure Providers</p>
@@ -80,21 +119,40 @@
                 <a href="https://www.albosys.com/" target="_blank">
                     <img src="img/Albo-logo.png" alt="Albo Climate Logo" class="partner-logo albo-logo">
                 </a>
+                <a href="https://spacetime.eu/" target="_blank">
+                    <img src="img/spacetime-logo.png" alt="Spacetime logo" class="partner-logo spacetime-logo">
+                </a>
             </div>
         </div>
     </div>
+
+ <!-- END PARTNERS AND INFRASTRUCTURE PROVIDERS
+    ------------------------------------------- -->
+
+
+
+<!-- SAAS SECTION START
+    ------------------------------------------- -->
+
 
     <div class="saas-section-wrapper">
         <div class="saas-section">
             <div class="saas-section-text-btn">
                 <h2><span>Sustainability</span>-as-a-Service</h2>
-                <p>SUMA Platform is a sustainability-focused Software-as-a-Service (SaaS) solution, designed to assist businesses and ecosystems towards net zero emissions.<br><br>
-                Our platform empowers businesses in calculating their carbon footprints, decarbonizing their activities, and ensuring effortless compliance with the latest regulations. In addition, we facilitate carbon offsetting with carbon credits that actively remove carbon from the atmosphere. Reach net zero with us.</p>
+                <p>SUMA Platform is a sustainability-focused Software-as-a-Service (SaaS) solution, designed to assist businesses and ecosystems towards net-zero emissions.<br><br>
+                Our platform empowers businesses in calculating their carbon footprints, decarbonizing their activities, and ensuring effortless compliance with the latest regulations. In addition, we facilitate carbon offsetting with carbon credits that actively remove carbon from the atmosphere. Reach net-zero with us.</p>
                 <button id="saasBtn">Get launch updates</button>
             </div>
-            <img src="img/tiger.png" alt="tiger image" class="image-large-screen">
+            <img src="img/saas-section-img.png" alt="jungle image" class="image-large-screen">
         </div>
     </div>
+
+    <!-- SAAS SECTION ENDS
+    ------------------------------------------- -->
+
+
+    <!-- PRODUCT SECTION STARTS HERE
+    ------------------------------------------- -->
 
     <div class="product-section-wrapper">
         <div class="product-section">
@@ -143,9 +201,51 @@
             </div>
         </div>
         <div class="product-btn-container">
-            <a class="product-section-btn" href="https://drive.google.com/file/d/1O5bJn9UNyzNCAA9JNWXOANeJnK5nCg1_/view?usp=drive_link" target="_blank">Download Litepaper</a>
+            <a class="product-section-btn" href="documents.html" target="_blank">More about SUMA</a>
         </div>
     </div>
+
+    <!-- WHO IS SUMA FOR START
+    ---------------------------------------->
+    
+    <div class="who-is-suma-for-section-wrapper">
+        <div class="who-is-suma-for-section">
+
+            <div class="who-is-suma-for-title-body">
+                <h2>Who is <span>SUMA</span> for?</h2>
+                <p>SUMA helps you to measure, manage and offset your CO2 emissions effectively. Our platform offers tailored solutions for sustianable transition, making climate commitment not only a possibility, but a competitive advantage.
+                </p>
+            </div>
+
+            <div class="who-is-suma-for-containers-wrapper">
+                <div class="suma-for-container">
+                    <img src="img/blockchain-icon.png" alt="blockchain icon" class="who-is-suma-icon">
+                    <p class="suma-for-subtitle">Web3 companies</p>
+                    <p class="suma-for-body-text">Lead in sustainable blockchain with SUMA. Calculate, offset, and neutralize your carbon footprint, invite your whole ecosystem and gain advantage in the Web3 space.</p>
+                </div>
+
+                <div class="suma-for-container">
+                    <img src="img/tech-icon.png" alt="blockchain icon" class="who-is-suma-icon">
+                    <p class="suma-for-subtitle">Tech companies</p>
+                    <p class="suma-for-body-text">Act now on climate initiatives with SUMA. Determine your carbon footprint, get decarbonization advice, and spearhead sustainable tech practices.</p>
+                </div>
+
+                <div class="suma-for-container">
+                    <img src="img/funds-icon.png" alt="blockchain icon" class="who-is-suma-icon">
+                    <p class="suma-for-subtitle">VC funds</p>
+                    <p class="suma-for-body-text">Guide your portfolio towards sustainable transitions with SUMA. Comply with regulations, offset carbon emissions, and create ESG reports, making climate commitment a competitive advantage.</p>
+                </div>
+            </div>
+            <div class="who-is-suma-for-section-btn">
+                <a href="https://forms.gle/jrKyqCMTSXfx9Ckr5" target="_blank">Contact Us</a>
+            </div>
+        </div>  
+    </div>
+
+
+
+    <!-- FOLLOW TWITTER SECTION START
+    -------------------------------->
 
     <div class="join-twitter-section-wrapper">
         <div class="join-twitter-section">
@@ -154,24 +254,33 @@
         </div>
     </div>
 
+    
+
+
+    <!-- FOOTER CODE STARTS HERE
+    ------------------------------------------- -->
+
     <footer>
         <div class="footer-wrapper">
             <img src="img/suma-logo-footer.png" alt="SUMA logo" class="footer-suma-logo">
             <div class="social-links-footer">
-                <a href="https://www.instagram.com/sumainsider/" target="_blank">
-                    <img src="img/instagram-logo-footer.png" alt="Instagram logo">
+                <a href="https://www.linkedin.com/company/51593340" target="_blank">
+                    <img src="img/linkedin-logo-footer.png" alt="Linkedin icon">
                 </a>
                 <a href="https://twitter.com/sumainsider" target="_blank">
-                    <img src="img/twitter-logo-footer.png" alt="SUMA logo">
+                    <img src="img/twitter-logo-footer.png" alt="Twitter icon">
                 </a>
             </div>
         </div>
         <div class="copyright-company-container">
-            <p>Likvidi Technologies Ltd. © 2023<br><a href="mailto:info@likvidi.com">info@likvidi.com</a></p>
+            <p>info@likvidi.com<br>Copyright © Likvidi Technologies Ltd. 2023 </p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- FOOTER ENDS
+    ------------------------------------------- -->
+
+    <script src="js/script.js"></script>
     
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/139764545.js"></script>
