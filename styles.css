@@ -190,10 +190,13 @@ h2 {
     cursor: pointer;
 }
 
-.signUpButton:hover {
-    background-color: #1A2421;
-    color: #fff;
+@media (hover: hover) and (pointer: fine) {
+    .signUpButton:hover, .signUpButton:focus {
+        background-color: #1A2421;
+        color: #fff;
+    }
 }
+
 
 
 
@@ -501,10 +504,13 @@ form input[type="email"] {
     cursor: pointer;
 }
 
-#saasBtn:hover {
-    background-color: #FFFCF6;
-    color: #F19837;
+@media (hover: hover) and (pointer: fine) {
+    #saasBtn:hover, #saasBtn:focus {
+        background-color: #FFFCF6;
+        color: #F19837;  
+    }
 }
+
 
 .saas-section p {
     margin-top: 0.5rem;
@@ -698,10 +704,13 @@ form input[type="email"] {
  
 }
 
-.product-section-btn:hover {
-    background-color: #1A2421;
-    color: #fff;
+@media (hover: hover) and (pointer: fine) {
+    .product-section-btn:hover, .product-section-btn:focus {
+        background-color: #1A2421;
+        color: #fff; 
+    }
 }
+
 
 
 /* max width 290px is for Galaxy Fold */
@@ -847,9 +856,11 @@ form input[type="email"] {
     transition: background-color 0.2s ease;
 }
 
-.who-is-suma-for-section-btn a:hover {
-    background-color: #FFFCF6;
+@media (hover: hover) and (pointer: fine) {
+    .who-is-suma-for-section-btn a:hover, .who-is-suma-for-section-btn a:focus {
+        background-color: #FFFCF6;
     color: #F19837;
+    }
 }
 
 .who-is-suma-for-title-body {
@@ -974,9 +985,12 @@ form input[type="email"] {
     transition: background-color 0.2s ease;
 }
 
-.join-twitter-section a:hover {
-    background-color: #F19837;
-    color: #fff;
+
+@media (hover: hover) and (pointer: fine) {
+  .join-twitter-section a:hover, .join-twitter-section a:focus {
+      background-color: #F19837;
+      color: #fff;
+  }
 }
 
 @media (min-width: 760px) {
@@ -1195,10 +1209,13 @@ footer {
     text-align: center;
 }
 
-.hero-section-btn-docs:hover {
-    background-color: #FFFCF6;
-    color: #F19837;
+@media (hover: hover) and (pointer: fine) {
+    .hero-section-btn-docs:hover, .hero-section-btn-docs:focus {
+        background-color: #FFFCF6;
+        color: #F19837;
+    }
 }
+
 
 .litepaper-image,
 .token-economics-image {
