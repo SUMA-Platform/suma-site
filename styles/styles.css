@@ -191,7 +191,7 @@ h2 {
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .signUpButton:hover, .signUpButton:focus {
+    .signUpButton:hover {
         background-color: #1A2421;
         color: #fff;
     }
@@ -287,7 +287,7 @@ h2 {
     font-weight: bold;
 }
 
-.close:hover, .close:focus {
+.close:hover {
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -505,7 +505,7 @@ form input[type="email"] {
 }
 
 @media (hover: hover) and (pointer: fine) {
-    #saasBtn:hover, #saasBtn:focus {
+    #saasBtn:hover {
         background-color: #FFFCF6;
         color: #F19837;  
     }
@@ -705,7 +705,7 @@ form input[type="email"] {
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .product-section-btn:hover, .product-section-btn:focus {
+    .product-section-btn:hover {
         background-color: #1A2421;
         color: #fff; 
     }
@@ -857,7 +857,7 @@ form input[type="email"] {
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .who-is-suma-for-section-btn a:hover, .who-is-suma-for-section-btn a:focus {
+    .who-is-suma-for-section-btn a:hover {
         background-color: #FFFCF6;
     color: #F19837;
     }
@@ -987,7 +987,7 @@ form input[type="email"] {
 
 
 @media (hover: hover) and (pointer: fine) {
-  .join-twitter-section a:hover, .join-twitter-section a:focus {
+  .join-twitter-section a:hover {
       background-color: #F19837;
       color: #fff;
   }
@@ -1210,7 +1210,7 @@ footer {
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .hero-section-btn-docs:hover, .hero-section-btn-docs:focus {
+    .hero-section-btn-docs:hover {
         background-color: #FFFCF6;
         color: #F19837;
     }
