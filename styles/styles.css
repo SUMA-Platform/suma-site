@@ -522,7 +522,7 @@ form input[type="email"] {
     .image-large-screen {
         display: inline;
         width: auto;
-        height: 250px;
+        height: 300px;
         margin-top: auto;
         margin-bottom: auto;
     }
