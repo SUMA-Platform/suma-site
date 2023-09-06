@@ -1499,3 +1499,644 @@ footer {
         margin-right: auto;
     }
 }
+
+
+/* SUMA FOR FUNDS PAGE STARTS
+---------------------------------------
+---------------------------------------
+---------------------------------------
+*/
+
+/* GENERAL */
+
+#documents-page {
+    background-color: #FFFCF6;
+}
+
+/* NAV MENU */
+
+
+.sff-page-nav-links a {
+    color: #1A2421;
+}
+
+.current-page {
+    font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+    #top-nav {
+        max-width: 1200px;
+    }
+}
+
+.nav-icon-docs {
+    color:#000;
+}
+
+
+/* HERO SECTION */
+
+#sff-page {
+    background-color: #FFFCF6;
+}
+
+.hero-section-sff-wrapper {
+    margin-top: 160px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    
+}
+
+
+.hero-section-sff-page h3 {
+    text-transform:uppercase;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #F19837;
+}
+
+.hero-section-sff-page h1 {
+    line-height: 45px;
+    color: #1A2421;
+    
+}
+
+.hero-section-sff-page h1 span {
+    color: #F19837;
+    
+}
+
+.hero-section-sff-page p {
+    padding-bottom: 1.5rem;
+    color: #1A2421;
+}
+
+.hero-section-img-sff {
+
+}
+
+.hero-section-btn-sff {
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    background-color: #F19837;
+    color: #1A2421;
+    border-radius: 7px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .hero-section-btn-sff:hover {
+        background-color: #FFFCF6;
+        color: #F19837;
+    }
+}
+
+
+.compass-image {
+    display: none;
+
+}
+
+@media (min-width: 500px) {
+    .hero-section-btn-sff {
+        display: inline;
+    }
+
+    .hero-section-content-sff p {
+        padding-bottom: 1.5rem;
+        font-size: 1.125rem;
+    }
+}
+
+
+
+@media (min-width: 720px) {
+    .hero-section-documents-page {
+        display: flex;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+
+    .hero-section-content-sff {
+        
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-bottom: 70px;
+        margin-left: 2rem;
+    }
+
+    .hero-section-img-sff {
+        margin-left: auto;
+    }
+
+    .hero-section-content-sff h1 {
+        font-size: 3rem;
+        line-height: 55px;
+        font-weight: 600;
+
+    }
+    
+}
+
+@media(min-width: 992px) {
+    .hero-section-sff-page {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .hero-section-content-sff {
+        max-width: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+        
+    }
+
+    .hero-section-btn-sff {
+        display: inline;
+        width: auto;
+    }
+
+    .hero-section-img-sff {
+        margin-top: 
+        
+    
+    }
+
+    .hero-section-content-sff h1 {
+        max-width: 600px;
+        font-size: 3.5rem;
+        line-height: 70px;
+        font-weight: 600;
+        
+    }
+
+    .hero-section-content-sff p {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .compass-image {
+        display: inline;
+
+    }
+
+    
+}
+
+@media (min-width: 1200px) {
+     .hero-section-sff-wrapper {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-section-img-sff {
+        margin-right: 0;
+        padding: 0;
+    }
+}
+
+/* QUOTE LINE */
+
+.quote-line {
+    background-color: #6F4E37;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+    color: #FFF4CF;
+
+}
+
+.quote-first-line p {
+    font-size: 1.25rem;
+    font-weight: 600;  
+}
+
+.quote-second-line p {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.quote-second-line a {
+    color: #FFF4CF;
+}
+
+@media (min-width: 720px) {
+    .quote-line {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    } 
+}
+
+/* ESG SECTION */
+
+.esg-section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 2rem;
+}
+
+.esg-section-title-subtitle h1 {
+    color: #F19837;;
+}
+
+.esg-section-title-subtitle span {
+    color: #F19837;
+}
+
+.esg-section-title-subtitle p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.esg-list {
+    background-color: #fff;
+    padding: 3rem 1rem;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.18);
+    list-style: none;
+}
+
+.esg-list li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 2rem; /* make room for the bullet */
+    margin-bottom: 0.5rem;
+}
+
+.esg-list li::before {
+    content: '•';
+    color: #F19837;
+    font-size: 3em;
+    position: absolute;
+    left: 0; /* position it at the start of the padding */
+    top: 0%;
+    transform: translateY(-30%); /* center it vertically */
+}
+
+
+.esg-list-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #F19837;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.esg-list-bottom-bold-text {
+    text-align: center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 1rem;
+}
+
+.green-lamp-image {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 720px) {
+    .esg-section-title-subtitle h1 {
+        font-size: 2.5rem;
+        line-height: 55px;
+        font-weight: 600;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .esg-section {
+        max-width: 990px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 145px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .esg-section-list-img {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: auto;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+    }
+
+    .green-lamp-image {
+        max-width: 40%;
+    }
+
+    .esg-list {
+        max-width: 50%;
+    }
+
+
+    .esg-list li {
+        margin-bottom: 1rem;
+    }
+
+    .esg-list li:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    .esg-section-title-subtitle h1 {
+        font-size: 3.5rem;
+        font-weight: 600;
+        margin-bottom: 0;
+        color:#F19837;
+    }
+}
+
+@media (min-width: 1200px) {
+    .esg-section {
+        max-width: 1200px;
+    }
+}
+
+
+
+/* SUMA PLATFORM SECTION / SUMA FOR FUNDS */
+
+.platform-journey-section-wrapper {
+    background-color: #FFF4CF;
+}
+
+.journey-section-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.plaform-journey-section h3 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.plaform-journey-section h1 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.plaform-journey-section h1 span {
+    color: #F19837;
+}
+
+.journey-section-img {
+    max-width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.step-number {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #F19837;
+    margin: 0;
+    padding: 0;
+}
+
+.journey-section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 0;
+    margin: 0 0 1rem 0;
+}
+
+.journey-section-body-text {
+    margin: 0;
+    padding: 0;
+    color: #206853;
+    font-size: 1.125rem;
+}
+
+@media (min-width: 720px) {
+    .plaform-journey-section h1 {
+        font-size: 2.5rem;
+        line-height: 55px;
+        font-weight: 600;
+        margin-bottom: 3rem;
+    }
+
+    .text-content-journey-section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        
+    }
+
+    .journey-section-title {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .step-number {
+        font-size: 1.25rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    .platform-journey-section-wrapper {
+        padding-left: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 6rem;
+    }
+
+    .plaform-journey-section h1 {
+        font-size: 3.5rem;
+        line-height: 70px;
+        font-weight: 600;
+    } 
+
+    .journey-section-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .journey-section-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 1rem;
+    }
+
+    .journey-section-img {
+        max-width: 500px;
+        height: auto;
+    }
+
+    .step-number {
+        font-size: 1.125rem;
+    }
+
+    .journey-section-title {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    /* CHANGE THE ORDER OF THE CONTAINERS */
+
+    .journey-section-container:nth-child(1) .text-content-journey-section,
+    .journey-section-container:nth-child(3) .text-content-journey-section {
+        order: 2;  /* make it appear second */
+        margin-left: 2rem;
+    }
+
+    .journey-section-container:nth-child(1) .journey-section-img,
+    .journey-section-container:nth-child(3) .journey-section-img {
+        order: 1;  /* make it appear first */
+    }
+
+    
+}
+
+@media (min-width: 1200px) {
+    .plaform-journey-section {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .journey-section-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .journey-section-content {
+        max-width: 1200px;
+    }
+}
+
+
+/* WHY SUMA SECTION */
+
+.why-suma-section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.why-suma-section h1 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.why-suma-section h1 span {
+    color: #F19837;
+}
+
+.why-suma-container {
+    background-color: #fff;
+    padding: 2.375rem 2rem;
+    margin-top: 1.25rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.why-suma-icon {
+    max-width: 50px;
+    height: auto;
+}
+
+.why-suma-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.why-suma-body {
+    color: #206852;
+    font-size: 1.125rem;
+}
+
+@media (min-width: 720px) {
+    .why-suma-title {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .why-suma-section {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .why-suma-container {
+        width: 590px;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .why-suma-first-row {
+        display: flex;
+        flex-direction: row;
+        gap: 1.25rem;
+        justify-content: center;
+    }
+
+    .why-suma-second-row {
+        display: flex;
+        flex-direction: row;
+        gap: 1.25rem;
+    }
+
+    .why-suma-title {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .why-suma-section h1 {
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 1200px) {
+    .why-suma-section {
+        max-width: 1200px;
+    }
+}
+
+/* FOOTER SUMA FOR FUNDS PAGE */
+
+.cta-section-sff-page {
+    margin-bottom: 30px;
+}
