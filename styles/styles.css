@@ -1039,84 +1039,137 @@ form input[type="email"] {
 
 footer {
     background-color: #FFEEB6;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 
 .footer-wrapper {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    max-width: 1200px;
+}
+
+.footer-logo img {
+    height: 50px;
+    width: auto;
+}
+
+.footer-links {
     display: flex;
     flex-direction: row;
-    padding-top: 2rem;
-    padding-bottom: 1.5rem;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
 }
 
-.footer-suma-logo {
-    width: auto;
-    height: 30px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.social-links-footer img {
-    width: 40px;
-    height: auto;
-    margin-left: 1rem;
-    
-}
-
-.copyright-company-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-}
-
-.copyright-company-container p {
-    text-align: center;
-    font-size: 0.8rem;
-    margin-top: 0;
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.875rem;
     font-weight: 600;
-    padding-top: 1rem;
-    
 }
 
-.copyright-company-container a {
-    text-decoration: underline;
-    color: #1A2421;
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 
-/* GALAXY FOLD MEDIA QUERY */
+.social-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
 
-@media(max-width: 290px) {
-    .social-links-footer img {
-        width: 30px;
+.footer-email-address p {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+
+.footer-bottom-section {
+    border-top: 1px solid #CBC2A5;
+    padding-top: 1.1rem;
+}
+
+.copyright-text-footer p {
+    font-size: 0.875rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.privacy-policy-footer {
+    margin-top: 1rem;
+}
+
+.privacy-policy-footer a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+    font-size: 0.875rem;
+}
+
+footer a:hover {
+    color: #F19837;
+}
+
+@media(min-width: 600px) {
+    .footer-logo-and-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
-}
 
-/* DESKTOP MEDIA QUERY */
+    .footer-links {
+        align-items: center;
+    }
 
-@media(min-width: 992px) {
-    .copyright-company-container {
-        padding-bottom: 1rem;
+    .footer-social-and-email {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-email-address p {
+        margin: 0;
+        padding: 0;
     }
 
     .footer-wrapper {
-        max-width: 990px;
         margin-left: auto;
         margin-right: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+}
+
+@media(min-width: 992px) {
+    .footer-wrapper {
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 
-    .copyright-company-container p {
-        font-size: 0.8rem;
-    } 
+    .footer-social-and-email {
+        margin-bottom: 3rem;
+    }
 }
 
 @media(min-width: 1200px) {
     .footer-wrapper {
-        max-width: 1200px;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
+
+
+
+
+
 
 
 /* DOCUMENTS PAGE START
@@ -2135,8 +2188,50 @@ footer {
     }
 }
 
-/* FOOTER SUMA FOR FUNDS PAGE */
+/* CTA section SFF page */
 
 .cta-section-sff-page {
     margin-bottom: 30px;
 }
+
+/* Privacy Page */
+
+#privacy-page {
+    background-color: #FFFCF6;
+}
+
+.privacy-main-text-content {
+    margin-top: 150px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.text-content-privacy h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 820px) {
+    .privacy-main-text-content {
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+    }
+
+    .text-content-privacy h1 {
+        margin-bottom: 2rem;
+        font-size: 3.5rem;
+    }
+
+    .text-content-privacy h2 {
+        margin-top: 3rem;
+    }
+
+    .text-content-privacy ul {
+        margin-bottom: 3rem;
+    }
+}
+
