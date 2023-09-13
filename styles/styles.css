@@ -125,6 +125,12 @@ h2 {
     font-size: 1rem;
 }
 
+@media (max-width: 570px) {
+    .desktop-nav-link {
+        font-size: 0.75rem;
+    }
+}
+
 @media (min-width: 1200px) {
     #logo {
         height: 75px;
@@ -2235,3 +2241,321 @@ footer a:hover {
     }
 }
 
+
+/* PRICING PAGE STARTS HERE
+----------------------------
+---------------------------
+*/
+
+.pricing-main-section {
+    margin-top: 120px;
+}
+
+.pricing-page-title h1 {
+    text-align: center;
+    line-height: 35px;
+    color: #1A2421;
+    font-size: 1.5rem;
+}
+
+.pricing-page-title h1 span {
+    color: #F19837;
+}
+
+.pricing-card {
+    background-color: #FFF4CF;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+.card-title p {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.pricing-card-title-subtitle {
+    border-bottom: 1px solid #68BBA3;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.pricing-card-title-subtitle h3 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    display: inline-block;
+    line-height: 0.8;
+    vertical-align: bottom;
+    
+}
+
+.pricing-card-title-subtitle p {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #206853;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.price-text-card {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.price-text-card h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.price-text-card p {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin 0;
+    vertical-align: bottom;
+    padding-left: 4px;
+}
+
+.pricing-bulletpoint {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.checkmark-pricing {
+    max-width: 16px;
+    height: 16px;
+    margin-top: 3px;
+}
+
+.pricing-bulletpoint p {
+    margin: 0;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-info-btn {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.pricing-btn {
+    text-decoration: none;
+    color: #1A2421;
+    background-color: #F19837;
+    display: inline-block;
+    width: 100%;
+    padding: 1.5rem 0;
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 7px;
+    font-weight: 600;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.pricing-btn:hover {
+    background-color: #D6812A;
+    text-decoration: none;
+}
+
+
+/* DIFFERENT COLORS FOR VC CARD */
+
+.vc-card {
+    background-color: #6F4E37;
+}
+
+.vc-card p, 
+.vc-card .pricing-card-title-subtitle p,
+.vc-card .pricing-bulletpoint p,
+.vc-card .bold-text-pricing {
+    color: #FFF4CF;
+}
+
+
+.pricing-card-title-subtitle h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color:#F19837;
+}
+
+.vc-card .pricing-btn {
+    background-color: #F19837;  /* Button background color */
+    color: #1A2421;  /* Button text color */
+}
+
+.vc-card .pricing-btn:hover {
+    background-color: #D6812A;
+    text-decoration: none;
+}
+
+.vc-card {
+    border-color: #FFF4CF;  /* Border color change */
+}
+
+
+/* DESKTOP ADJUSTMENTS */
+
+@media (min-width: 600px) {
+    .pricing-page-title h1 {
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .pricing-page-title h1 {
+        font-size: 3.5rem;
+        font-weight: 600;
+        line-height: 60px;
+        margin-bottom: 4rem;
+        
+        
+    }
+
+    .pricing-main-section {
+        margin-top: 175px;
+        margin-bottom: 120px;
+    }
+
+    .pricing-cards-wrapper {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        align-items: stretch;
+    }
+
+    .pricing-card {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricing-card-info-section {
+        flex-grow: 1;
+    }
+
+    .card-title p {
+        font-size: 1.75rem;
+    }
+
+    .price-text-card p {
+        font-size: 0.75rem;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .pricing-main-section {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pricing-cards-wrapper {
+        margin: 0;
+    }
+
+    .card-title p {
+        font-size: 2rem;
+    }
+
+    .price-text-card p {
+        font-size: 0.9rem;
+    } 
+}
+
+/* SUMA FOR FUNDS MODAL */
+
+
+/* CARD 1 modal */
+
+#suma-for-startups-free-modal {
+    display: none;
+}
+
+
+/* CARD 2 modal */
+
+#suma-for-startups-premium-modal {
+    display: none;
+}
+
+
+/* CARD 3 modal */
+
+.pricing-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.pricing-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 32px;
+    padding-top: 48px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    z-index: 1001;
+    width: 90%;
+    height: 90%;
+}
+
+.close-pricing-modal {
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    font-size: 24px;
+}
+
+@media (min-width: 997px) {
+    .pricing-modal-content {
+        width: 60%;
+        height: auto;
+        color: #000;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pricing-modal-content {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .pricing-modal-content {
+        width: 40%;
+    }
+}
+
+/* MODAL Responsive design for mobile view */
+
+@media (max-width: 768px) {
+    .pricing-modal-content {
+        width: 90%;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+}
