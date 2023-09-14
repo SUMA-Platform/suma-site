@@ -22,38 +22,31 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   if(btn) {
       btn.addEventListener("click", showModal);
-      btn.addEventListener("touchstart", showModal);
   }
 
   if(saasBtn) {
       saasBtn.addEventListener("click", showModal);
-      saasBtn.addEventListener("touchstart", showModal);
   }
 
   if(spanCloseDocs) {
       spanCloseDocs.addEventListener("click", hideModal);
-      spanCloseDocs.addEventListener("touchstart", hideModal);
   }
 
   if(span) {
       span.addEventListener("click", hideModal);
-      span.addEventListener("touchstart", hideModal);
   }
 
   window.addEventListener("click", hideModalIfClickedOutside);
-  window.addEventListener("touchstart", hideModalIfClickedOutside);
 });
 
 // NAV MENU OPEN AND CLOSE FUNCTION
 
 if(document.getElementById("nav-icon-open")) {
   document.getElementById("nav-icon-open").addEventListener("click", openMenu);
-  document.getElementById("nav-icon-open").addEventListener("touchstart", openMenu);
 }
 
 if(document.getElementById("nav-icon-close")) {
   document.getElementById("nav-icon-close").addEventListener("click", closeMenu);
-  document.getElementById("nav-icon-close").addEventListener("touchstart", closeMenu);
 }
 
 function openMenu() {
